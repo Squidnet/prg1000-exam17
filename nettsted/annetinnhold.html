@@ -1,0 +1,61 @@
+<pre>
+<b>VEDLIKEHOLD DEL:</b>
+
+REGISTRER:
+lagt inn placeholder tekst på alle inputs, for lettere utfylling.
+Ved flere feil i utforming av skjemaer, skrives alle feil ut(js)
+
+<i>Yrkesgruppe:</i>
+
+<i>Bilde:</i>
+La til enklere rullemeny for datovalg.
+Datoformat er lovlig, validert med php og javascript.
+php og javascript validering på bildenr kun 3 siffer.
+Lagt til funksjon for å laste opp bilde. blir lagt i img folder i root.
+Navnet endres i regbilde.php, slik at det kan vises på nettsiden under informasjon om behandlere og behandlere etter yrke.
+
+<i>Behandler:</i>
+Maksantallpasienter skal ha tall større enn 0, validert med php og javascript.
+La til link så det er lettere og registrere yrke eller bildet om det mangler.
+php og javascript validering på bildenr kun 3 siffer.
+Bildet vises når bildenummer oppgis (ajax)
+
+<i>Pasient:</i>
+pasientID 2 eller 3 bokstaver validert med php og javascript.
+
+VIS:
+
+<i>Yrkesgruppe:</i>
+
+<i>Bilde:</i>
+
+<i>Behandler:</i>
+
+<i>Pasient:</i>
+
+<i>Behandlere for angitt yrkesgruppe:</i>
+Rullemeny gjort med ajax, yrke som er registert kan velges, søker gjennom
+og viser behandlere i yrke => byttet til php for å gjøre den mer "reliable". javascript kan skrus av, php kan ikke.
+
+<b>NETTSIDE:</b>
+
+<i>Registrer pasient:</i>
+Pasienter kan kun registrere seg hvis di allerede er registrert på vedlikeholdssiden.
+
+Bilder fra regbilde.php(vedlikehold) vises på info om behandlere, og vis behandlere etter yrke.
+Javascript hendelser og validering på registrer pasient, også php validert.
+
+Inline test for å printe ut LEDIG og IKKE LEDIG for behandlere:
+
+"(boolval($antPas/$temp[5]!=1) ? 'LEDIG' : 'IKKE LEDIG')"
+
+
+<i>Uten om ekstra funkjsoner:</i>
+Vi har også lagt merke til relasjoner mellom denne oppgaven og databaser.
+Vi ser hvordan de forskjellige tekstfilene er forkjellige tabeller i en database, 
+og i disse så er informasjon som behandlerId, pasientId, bildenummer og yrkesgruppe 
+primærnøkler som vi har brukt til å teste mellom de forkjellige tabellene for å få 
+riktig informasjon ut sammen.
+
+
+</pre>

@@ -1,0 +1,4 @@
+GB;Geir;Bjarvin
+MJ;Marius;Johannesen
+GE;Gunnleif;Ekerson
+ST;siste;test

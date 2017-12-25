@@ -1,0 +1,7 @@
+MBT;Morten;Bull-Thuhus;LEGE;002;2000
+RR;Robin;Røsholt;LEGE;010;2
+JA;Jon;Almand;PSYKOLOG;001;27
+EPB;Espen Esther Pirelli;Benestad;KIRURG;003;50
+JL;Julie;Lullan;SYKEPLEIER;113;240
+JUN;Julian;Null;KIRURG;401;3
+ST;Siste;Test;SISTE TEST;001;10

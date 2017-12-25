@@ -1,0 +1,168 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.77 [en] (Windows NT 5.0; U) [Netscape]">
+   <meta name="Author" content="Geir Bjarvin">
+   <title>prg1000-hjemmeeksamen-2017-sjekkliste</title>
+	<style type="text/css">
+.style1 {
+	border-style: solid;
+	border-width: 1px;
+}
+</style>
+	</head>
+<body bgcolor="#FFFFFF">
+
+<h2>PRG1000 - HJEMMEEKSAMEN H&Oslash;STEN 2017 - SJEKKLISTE</h2>
+<table border="1" cellspacing="0" cellpadding="0" width="71%">
+  <tr>
+    <td width="69%"><p><strong>Grunnleggende funksjonalitet    og krav</strong></p></td>
+    <td width="69%"><p><strong>Realisert (ja/nei) </strong></p></td>
+  </tr>
+  <tr>
+    <td width="69%"><p>registrer yrkesgruppe </p></td>
+    <td width="69%">Ja - skjema med et felt for å registrere nytt yrke og sjekker om yrke allerede er registrert</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>vis  yrkesgrupper</p></td>
+    <td width="69%">ja - viser registrerte yrker fra yrkesgruppe.txt</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>registrer bilde </p></td>
+    <td width="69%">ja - registrere nytt bilde, sjekker at bildenr er 3 tall, dato format er ååå-mm-dd. sjekker at mnd er lovlig. også lagt til opplastning av bilde</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>vis bilder </p></td>
+    <td width="69%">ja - viser info fra bilde.txt opplastet bilde er også med her. </td>
+  </tr>
+  <tr>
+    <td width="69%"><p>registrer behandler</p></td>
+    <td width="69%">ja - registrerer behandler, sjekker at id kan bare være 2-3 tegn. bilde nr må besta av 3 tall, om yrke ikke eksisterer er det link til reg yrke siden. samme gjelder for bilde. sjekker også om behandler ID er i bruk.</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>vis  behandlere</p></td>
+    <td width="69%">ja - viser info fra behandler.txt</td>
+  </tr>
+  <tr>
+    <td><p>registrer pasient </p></td>
+    <td>ja - pasient ID må være 2 eller 3 lang, sjekker også om pasient ID allerede er i bruk. </td>
+  </tr>
+  <tr>
+    <td><p>vis  pasienter</p></td>
+    <td>ja - viser info fra pasient.txt</td>
+  </tr>
+  <tr>
+    <td><p>vis behandlere for angitt yrkesgruppe </p></td>
+    <td>ja - vi har lagt til en dropdown meny, søker gjennom yrkesgruppe.txt(getYrkesgruppe.php) for å finne eksisterende yrker til menyen. i searchyrkesgruppe.php sjekker vi yrke mot behandler.txt og skriver ut basert på match. </td>
+  </tr>
+  <tr>
+    <td width="69%"><p>html5-validering av alle registreringene</p></td>
+    <td width="69%">ja - lagt til required på alle skjema.</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>php-validering av alle registreringene</p></td>
+    <td width="69%">ja - sjekker tomme felt, korrekt info(bildenr og Id'ne)</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>js-validering av bildenr </p></td>
+    <td width="69%">ja - sjekker tomme felt, korrekt info(bildenr og Id'ne)</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>hendelser (fokus / mistet fokus)</p></td>
+    <td width="69%">ja - skifter til grønn bakgrunn</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>hendelser (mus inn / mus ut)</p></td>
+    <td width="69%">ja - grønn skrift, hvordan felt skal fylles ut</td>
+  </tr>
+  <tr>
+    <td><p>asynkron  kommunikasjon i   registrer behandler </p></td>
+    <td>ja - når yrkesgruppe blir fyllt inn, skrives det ut om yrke eksisterer. bildenr og selve bildet vises om det eksisterer.</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>menybasert applikasjon med stilark</p></td>
+    <td width="69%">ja - et stilark for vedlikeholdssiden, og et for nettsiden.</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>&nbsp;</p></td>
+    <td width="69%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="69%"><p><strong>Ytterligere krav</strong></p></td>
+    <td width="69%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>krav 1<strong> </strong></p></td>
+    <td width="69%">ja - tester om det er registrert fra før, hvis det eksisterer får man ikke registrery</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>krav 2</p></td>
+    <td width="69%">ja - tester om det er registrert fra før, hvis det eksisterer får man ikke registrery</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>krav 3</p></td>
+    <td width="69%">ja - tester om det er registrert fra før, hvis det eksisterer får man ikke registrery</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>krav 4</p></td>
+    <td width="69%">ja - tester om det er registrert fra før, hvis det eksisterer får man ikke registrery</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>krav 5</p></td>
+    <td width="69%">ja - det er den</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>krav 6</p></td>
+    <td width="69%">ja - ja det er det</td>
+  </tr>
+  <tr>
+    <td><p>validering  av maks antall  pasienter </p></td>
+    <td>ja - ikke mulig og registrere 0 pasienter som maks</td>
+  </tr>
+  <tr>
+    <td><p>validering  av pasientID </p></td>
+    <td>ja - må være 2 eller 3 bokstaver.</td>
+  </tr>
+  <tr>
+    <td><p>validering  av korrekt  datoformat </p></td>
+    <td>ja - dato kan kun registreres om datoen eksisterer og er ååå-mm-dd.</td>
+  </tr>
+  <tr>
+    <td width="69%"><p>validering  av lovlig  dato  </p></td>
+    <td width="69%">ja - dato kan kun registreres om datoen eksisterer(2017-31-56 vil ikke fungere, sjekker antall dager per mnd) og er ååå-mm-dd.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Nettsted for pasientregistrering </strong></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td> vis  info om angitt behandler</td>
+    <td>ja - yrkesgruppe.txt, behandler.txt, bilde.txt sjekkes mot hverandre, når match blir funnet skrives info ut.</td>
+  </tr>
+  <tr>
+    <td>vis alle behandlere gruppert etter yrkesgruppe </td>
+    <td>ja - stort sett samme som "info om behandler" men sorteres utifra yrke og hvilket yrke behandler har. Info skrives ut litt annerledes, tatt i bruk inline test for å sjekke om behandler har ledig eller ikke ledig plass for pasienter.</td>
+  </tr>
+  <tr>
+    <td>finn  om en angitt behandler har ledig plass</td>
+    <td>ja - stort sett samme som "behandler etter yrke" søker etter behandler. Tatt i bruk inline test for å sjekke om behandler har ledig eller ikke ledig plass for pasienter.</td>
+  </tr>
+  <tr>
+    <td>registrer en pasient hos en angitt behandler </td>
+    <td>ja - kan kun registreres om pasient eksisterer fra vedlikeholdssiden. </td>
+  </tr>
+</table>
+<p><strong>Tekstfil for  pasientregistrering</strong></p>
+<p>Her skal det angis URL for tekstfilen som benyttes for &aring; lagre pasientregistreringer. </p>
+<p><strong>Annet </strong></p>
+<p>Dersom gruppen har realisert noe som &oslash;ker brukeligheten til vedlikeholdsapplikasjon eller nettstedet (ut over det som er beskrevet i oppgaveteksten) gis her en kort beskrivelse av dette. </p>
+</body>
+</html>
+
+
+<a href="annet.php"><h4>Her er ekstrafunksjoner</h4></a>

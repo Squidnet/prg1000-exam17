@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    
+    font-family: sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: mediumseagreen;
+}
+
+#logo-overskrift {
+    font-size: 35px;
+    color: white;
+    margin-left: 30px;
+    line-height: 95px;
+    font-weight: 600;
+}
+
+#bjarum-logo {
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 8px;
+    float: left;
+}
+
+nav {
+    float: left;
+    width: 300px;
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 100px;
+}
+
+flux {
+    display: inline-flex;
+    height: 100%;
+}
+
+nav ul li {
+    margin-bottom: 12px;
+    list-style-type: none;
+    margin-left: -10px;
+}
+
+innhold {
+    min-height: 388px;
+    display: block;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: mediumseagreen;
+    bottom: 0;
+    position: relative;
+    float: left;
+    color: white;
+    display: block;
+}
+
+footer a {
+    line-height: 58px;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-tekst {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#footer-tekst-marg {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#overskrift {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#vis {
+    padding: 5px;
+    padding-top: 0;
+    padding-bottom: 2px;
+}
+
+#vis3 {
+    padding: 5px;
+    padding-top: 0;
+    padding-bottom: 2px;
+    font-weight: 600;
+}
+
+#liten-link {
+    font-size: 20px;
+    float: right;
+    margin-right: 30px;
+    color: white;
+    line-height: 100px;
+}
+
+#sjekkliste {
+    width: 100%;
+}
